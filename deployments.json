@@ -1,5 +1,20 @@
 {
   "oracle_base": "0x6cb2896ea1a58277F4F62b5c7F4d54235f25BA42",
-  "reactive_lasna": "0x557Fc1aF2CfA6fb40cC5B43fA5b8194E08DB158B",
-  "destination_base": "0xB2A56CacE9ff77468400B081Ae8E7bB7e25B0aeb"
+  "reactive_lasna": "0x6cb2896ea1a58277F4F62b5c7F4d54235f25BA42",
+  "destination_base": "0x146602dE80026F4442DE45D30071227130a1da3f",
+  "superseded": {
+    "reactive_lasna_v1": "0x557Fc1aF2CfA6fb40cC5B43fA5b8194E08DB158B",
+    "destination_base_v1": "0xB2A56CacE9ff77468400B081Ae8E7bB7e25B0aeb"
+  },
+  "chains": {
+    "lasna": 5318007,
+    "base_sepolia": 84532
+  },
+  "e2e_proof": {
+    "submit_decision_tx": "0xcc3ffe646c618a61c0d6ead8a4adefcfc7ae8a6577fb18077ac413aa64c7d65e",
+    "callback_execution_tx": "0x968acf380d9578c3ff4695f7b40d13c93fadceef57b438b3b0cbe9f3baf6d136",
+    "decision_hash": "0xc81a6dabcf0dc16b71651c2eff523f0bd32837c",
+    "model_latency_ms": 1963,
+    "exposure_bps_after": 5000
+  }
 }
